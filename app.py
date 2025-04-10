@@ -1,4 +1,4 @@
-import boto3
+import Linux
 import test #added thisnew
 # Initialize EC2 client
 ec2 = boto3.client('ec2', region_name='us-east-1')  # Change region as needed
